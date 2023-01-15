@@ -1,0 +1,23 @@
+{
+  "name": "mutiplayer-webapp-game-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manushioza/mutiplayer-webapp-game-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manushioza/mutiplayer-webapp-game-fe/issues"
+  },
+  "homepage": "https://github.com/manushioza/mutiplayer-webapp-game-fe#readme",
+  "devDependencies": {
+    "electron": "^22.0.2"
+  }
+}
