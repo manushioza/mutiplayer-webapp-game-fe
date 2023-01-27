@@ -3,21 +3,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <h1 style="background-color: rgba(255, 255, 255, 0)">
+      <span class="gradient-text">AstroVenture</span>
+  </h1>
     <div>
-      <canvas id="canvas1"></canvas>
-      <canvas id="canvas2"></canvas>
-
-    </div>
-   
+      <h2 id="title"></h2>
+      <br/>
+      <button id="startGame" onclick="">Start Game</button>
+      <a href="../html/login.html" target="_blank">
+        <button id="login" onclick="">Login</button>
+      </a>
+      <button id="createGame" onclick="">Create Game</button>
+      <button id="joinGame" onclick="">Join a Game</button>
+      <button id="settings" onclick="">Settings</button>
+      <h3><span class="gradient-text">Volume Slider</span></h3>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+      </div>
+  </div>
 
     <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+    <script src="../js/preload.js"></script>
     <script src="../js/traceing.js"></script>
     
   </body>
