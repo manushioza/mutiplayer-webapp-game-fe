@@ -6,7 +6,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas id="canvas"></canvas>
+    <h1 style="background-color: rgba(255, 255, 255, 0)">
+      <span class="gradient-text">AstroVenture</span>
+  </h1>
+    <div>
+      <h2 id="title"></h2>
+      <br/>
+      <a href="../html/tracing.html" target="_blank">
+      <button id="startGame" >Start Game</button>
+      </a>
+      <a href="../html/login.html" target="_blank">
+        <button id="login" onclick="">Login</button>
+      </a>
+      <button id="createGame" onclick="">Create Game</button>
+      <button id="joinGame" onclick="">Join a Game</button>
+      <button id="settings" onclick="">Settings</button>
+      <h3><span class="gradient-text">Volume Slider</span></h3>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+      </div>
+  </div>
+
     <!-- You can also require other files to run in this process -->
     <script src="../js/preload.js"></script>
     <script src="../js/traceing.js"></script>

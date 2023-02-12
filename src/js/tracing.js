@@ -11,7 +11,7 @@ new class Game {
       this.c.height = 190;
       this.c.width = 140;
       this.cx.fillStyle = 'rgb(200, 200, 250)';
-      this.drawletter('5');
+      this.drawletter('*');
       this.cx.fillStyle = 'rgb(0, 0, 50)';
       this.letterpixels = this.getpixelamount(200, 200, 250);
     }
